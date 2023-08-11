@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #B9EDDD;
+}
+
+.cabecalho{
+    background: #87CBB9;
+}
+
+.cabecalho__titulo{
+    color: #577D86;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 1%;
+    text-align: center; 
+}
+
+.frase{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 5% 5% 5% 0%;
+    text-align: center;
+}
+
+.cadastro{
+    margin: 2% 23% 4% 23%;
+    padding: 1%;
+}
+
+.cadastro__dado{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cadastro__nome{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 440px;
+}
+
+.cadastro__cpf{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 300px;
+}
+
+.cadastro__email{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 400px;
+}
